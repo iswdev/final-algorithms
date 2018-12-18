@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+let numbers = [4,3,2,7,8,2,3,1]
+let result1 = findNumbersDisappeared(in: numbers)
+print("\(result1)")
+
 
