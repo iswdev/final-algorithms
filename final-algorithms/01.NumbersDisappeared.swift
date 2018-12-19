@@ -9,8 +9,8 @@
 import Foundation
 
 
-func findNumbersDisappeared(in numbers: [Int]) -> [Int]{
-    let size = numbers.count
+func findDisappearedNumbers(_ nums: [Int]) -> [Int]{
+    let size = nums.count
     var result = [Int]()
     for number in 1...size{
         let pos = numbers.index(of : number)

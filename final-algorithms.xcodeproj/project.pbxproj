@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		CE0947AD21C8ADC6008E02A0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0947AC21C8ADC6008E02A0 /* main.swift */; };
 		CE0947B421C8ADE9008E02A0 /* 01.NumbersDisappeared.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0947B321C8ADE9008E02A0 /* 01.NumbersDisappeared.swift */; };
+		CE653F6C21C9C8AD001ED4F1 /* 02.FindTheDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE653F6B21C9C8AD001ED4F1 /* 02.FindTheDifference.swift */; };
+		CE653F6E21C9CAD5001ED4F1 /* 03.SelfDividingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE653F6D21C9CAD5001ED4F1 /* 03.SelfDividingNumber.swift */; };
+		CE653F7021C9CDA7001ED4F1 /* 04.ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE653F6F21C9CDA7001ED4F1 /* 04.ReverseString.swift */; };
+		CE653F7221C9CF0C001ED4F1 /* 05.RomanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE653F7121C9CF0C001ED4F1 /* 05.RomanToInt.swift */; };
+		CE653F7421C9E4DB001ED4F1 /* 06.ReverseNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE653F7321C9E4DB001ED4F1 /* 06.ReverseNumber.swift */; };
+		CE653F7621C9F06A001ED4F1 /* 07.AddDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE653F7521C9F06A001ED4F1 /* 07.AddDigits.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +33,12 @@
 		CE0947A921C8ADC6008E02A0 /* final-algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "final-algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0947AC21C8ADC6008E02A0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CE0947B321C8ADE9008E02A0 /* 01.NumbersDisappeared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 01.NumbersDisappeared.swift; sourceTree = "<group>"; };
+		CE653F6B21C9C8AD001ED4F1 /* 02.FindTheDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02.FindTheDifference.swift; sourceTree = "<group>"; };
+		CE653F6D21C9CAD5001ED4F1 /* 03.SelfDividingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 03.SelfDividingNumber.swift; sourceTree = "<group>"; };
+		CE653F6F21C9CDA7001ED4F1 /* 04.ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 04.ReverseString.swift; sourceTree = "<group>"; };
+		CE653F7121C9CF0C001ED4F1 /* 05.RomanToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 05.RomanToInt.swift; sourceTree = "<group>"; };
+		CE653F7321C9E4DB001ED4F1 /* 06.ReverseNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 06.ReverseNumber.swift; sourceTree = "<group>"; };
+		CE653F7521C9F06A001ED4F1 /* 07.AddDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 07.AddDigits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,12 @@
 			children = (
 				CE0947AC21C8ADC6008E02A0 /* main.swift */,
 				CE0947B321C8ADE9008E02A0 /* 01.NumbersDisappeared.swift */,
+				CE653F6B21C9C8AD001ED4F1 /* 02.FindTheDifference.swift */,
+				CE653F6D21C9CAD5001ED4F1 /* 03.SelfDividingNumber.swift */,
+				CE653F6F21C9CDA7001ED4F1 /* 04.ReverseString.swift */,
+				CE653F7121C9CF0C001ED4F1 /* 05.RomanToInt.swift */,
+				CE653F7321C9E4DB001ED4F1 /* 06.ReverseNumber.swift */,
+				CE653F7521C9F06A001ED4F1 /* 07.AddDigits.swift */,
 			);
 			path = "final-algorithms";
 			sourceTree = "<group>";
@@ -122,8 +140,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE653F7221C9CF0C001ED4F1 /* 05.RomanToInt.swift in Sources */,
+				CE653F7021C9CDA7001ED4F1 /* 04.ReverseString.swift in Sources */,
+				CE653F6E21C9CAD5001ED4F1 /* 03.SelfDividingNumber.swift in Sources */,
+				CE653F6C21C9C8AD001ED4F1 /* 02.FindTheDifference.swift in Sources */,
 				CE0947AD21C8ADC6008E02A0 /* main.swift in Sources */,
 				CE0947B421C8ADE9008E02A0 /* 01.NumbersDisappeared.swift in Sources */,
+				CE653F7421C9E4DB001ED4F1 /* 06.ReverseNumber.swift in Sources */,
+				CE653F7621C9F06A001ED4F1 /* 07.AddDigits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
