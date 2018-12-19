@@ -2,12 +2,15 @@
 //  07.AddDigits.swift
 //  final-algorithms
 //
-//  Created by User on 2018-12-18.
+//  Created by Francisco Igor [franciscoigor@gmail.com] on 2018-12-18.
 //  Copyright © 2018 User. All rights reserved.
 //
 
 import Foundation
 
+/*
+ * Add all digits of a number, until there is only one digit
+ */
 func addDigits(_ num: Int) -> Int {
     var result : Int = 0
     if(num < 10){
@@ -24,9 +27,13 @@ func addDigits(_ num: Int) -> Int {
 }
 
 
+/*
+ * Add all digits, non recursive, Using modulus 9.
+ */
 func addDigitsNonRec(_ num: Int) -> Int {
     if (num<=9){
         return num
     }
     return num % 9
 }
+

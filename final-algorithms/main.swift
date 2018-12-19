@@ -2,7 +2,7 @@
 //  main.swift
 //  final-algorithms
 //
-//  Created by User on 2018-12-17.
+//  Created by Francisco Igor [franciscoigor@gmail.com] on 2018-12-17.
 //  Copyright © 2018 User. All rights reserved.
 //
 
@@ -106,5 +106,20 @@ list2.addNode(2).addNode(3).addNode(4).addNode(5)
 print("reverseList(recursive) \(list2) :")
 var reverseList2 = reverseListRec(list2)
 print(reverseList2!)
+
+
+// 11.DeleteDuplicates
+
+var list3 = ListNode(1)
+list3.addNode(1).addNode(2).addNode(3).addNode(3)
+print("DeleteDuplicates \(list3) :")
+var deletedDuplicates1 = deleteDuplicates(list3)
+print(deletedDuplicates1!)
+
+var list4 = ListNode(1)
+list4.addNode(2).addNode(1).addNode(4).addNode(1).addNode(3).addNode(4)
+print("DeleteDuplicates \(list4) :")
+var deletedDuplicates2 = deleteDuplicates(list4)
+print(deletedDuplicates2!)
 
 

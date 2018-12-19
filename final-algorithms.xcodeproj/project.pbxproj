@@ -18,6 +18,7 @@
 		CE653F7821C9FB48001ED4F1 /* 08.MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE653F7721C9FB48001ED4F1 /* 08.MoveZeroes.swift */; };
 		CE653F7A21C9FE18001ED4F1 /* 09.SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE653F7921C9FE18001ED4F1 /* 09.SingleNumber.swift */; };
 		CE653F7C21CA00CC001ED4F1 /* 10.ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE653F7B21CA00CC001ED4F1 /* 10.ReverseLinkedList.swift */; };
+		CE653F7E21CAD995001ED4F1 /* 11.DeleteDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE653F7D21CAD995001ED4F1 /* 11.DeleteDuplicates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		CE653F7721C9FB48001ED4F1 /* 08.MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 08.MoveZeroes.swift; sourceTree = "<group>"; };
 		CE653F7921C9FE18001ED4F1 /* 09.SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 09.SingleNumber.swift; sourceTree = "<group>"; };
 		CE653F7B21CA00CC001ED4F1 /* 10.ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10.ReverseLinkedList.swift; sourceTree = "<group>"; };
+		CE653F7D21CAD995001ED4F1 /* 11.DeleteDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11.DeleteDuplicates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				CE653F7721C9FB48001ED4F1 /* 08.MoveZeroes.swift */,
 				CE653F7921C9FE18001ED4F1 /* 09.SingleNumber.swift */,
 				CE653F7B21CA00CC001ED4F1 /* 10.ReverseLinkedList.swift */,
+				CE653F7D21CAD995001ED4F1 /* 11.DeleteDuplicates.swift */,
 			);
 			path = "final-algorithms";
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				CE0947AD21C8ADC6008E02A0 /* main.swift in Sources */,
 				CE653F7C21CA00CC001ED4F1 /* 10.ReverseLinkedList.swift in Sources */,
 				CE0947B421C8ADE9008E02A0 /* 01.NumbersDisappeared.swift in Sources */,
+				CE653F7E21CAD995001ED4F1 /* 11.DeleteDuplicates.swift in Sources */,
 				CE653F7421C9E4DB001ED4F1 /* 06.ReverseNumber.swift in Sources */,
 				CE653F7621C9F06A001ED4F1 /* 07.AddDigits.swift in Sources */,
 			);
